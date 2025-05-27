@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PG and Rent Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="js/index.js"></script>
+</head>
+<body>
+  <header class="bg-dark text-white">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">PG and Rent</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section class="jumbotron bg-info text-white">
+    <div class="container">
+      <h1 class="display-4">Find Your Ideal PG Accommodation</h1>
+      <p class="lead">Search for PG accommodations in your preferred location and budget</p>
+      <form>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="location">Location</label>
+            <input type="text" class="form-control" id="location" placeholder="Enter location">
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="budget">Budget</label>
+            <input type="text" class="form-control" id="budget" placeholder="Enter budget">
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="amenities">Amenities</label>
+            <select class="form-control" id="amenities">
+              <option selected>Choose...</option>
+              <option>Wi-Fi</option>
+              <option>AC</option>
+              <option>Power Backup</option>
+              <option>Security</option>
+              <option>Meals</option>
+            </select>
+          </div>
+        </div>
+        <button class="btn btn-lg btn-primary" type="submit">Search PG Accommodations</button>
+      </form>
+    </div>
+  </section>
+  <section class="container my-5">
+    <h2 class="text-center mb-5">Popular PG Accommodations</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/350x200.png?text=PG+Accommodation" class="card-img-top" alt="PG Accommodation">
+          <div class="card-body">
+            <h5 class="card-title">PG
